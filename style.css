@@ -1,4 +1,5 @@
 html, body{
+    width: 100%;
     margin: 0;
     height: 100%;
     background-color: #2fe6be;
@@ -12,12 +13,12 @@ h1, h2{
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /*width: 90%;*/
 }
 
 .add-todo-flex-wrapper{
     display: flex;
-    width: 500px;
+    width: 92%;
     min-height: 40px;
     align-items: center;
     background-color: #7c10e9;
@@ -26,7 +27,7 @@ h1, h2{
 }
 
 .input-wrapper{
-    width: 75%;
+    width: 100%;
 }
 
 .input-wrapper input{
@@ -35,7 +36,7 @@ h1, h2{
 }
 
 .button-wrapper{
-    width: 25%;
+    width: 46%;
     display: flex;
     justify-content: flex-end;
 }
@@ -52,7 +53,7 @@ h1, h2{
 
 .todo-item{
     display: flex;
-    width: 500px;
+    width: 98%;
     /*min-height: 50px;*/
     border: 1px solid black;
     border-radius: 5px;
@@ -71,7 +72,7 @@ h1, h2{
 }
 
 .description{
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     color: blue;
