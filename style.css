@@ -51,9 +51,15 @@ h1, h2{
     cursor: pointer;
 }
 
+.todos-wrapper{
+    display: inline-block;
+    margin: 0;
+    width: 98%;
+}
+
 .todo-item{
     display: flex;
-    width: 98%;
+    width: 94%;
     /*min-height: 50px;*/
     border: 1px solid black;
     border-radius: 5px;
